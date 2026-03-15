@@ -63,6 +63,8 @@ void ReadCollectedInformationThread(int nDrone) {
             console.unlock();
         }
     }
+
+    File.close(); //RICORDO !!
 }
 
 int main() {
